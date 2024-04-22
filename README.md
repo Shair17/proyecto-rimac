@@ -53,7 +53,7 @@ Para ejecutar el proyecto, asegúrate de tener configurado un emulador o disposi
 Enlace de la APK
 Puedes descargar la APK para instalar la aplicación en un dispositivo Android en el siguiente enlace:
 
-[Enlace para descargar la APK](https://github.com/Shair17/proyecto-rimac/tree/main/build/app.apk)
+[Enlace para descargar la APK](https://github.com/Shair17/proyecto-rimac/tree/main/build/app-release.apk)
 
 ## Contacto
 
