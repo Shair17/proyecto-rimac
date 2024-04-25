@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {StatusBar} from 'react-native';
 import {Root as AppRoot} from './navigation/Root';
 import {ReactQueryProvider} from './providers/ReactQueryProvider';
@@ -6,6 +6,10 @@ import {ReactNavigation} from './providers/ReactNavigation';
 import {APP_COLORS} from './theme/colors';
 
 function App() {
+  useEffect(() => {
+    console.log('app cambio');
+  }, []);
+
   return (
     <ReactQueryProvider>
       <ReactNavigation>

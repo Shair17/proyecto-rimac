@@ -21,7 +21,7 @@ export const HeaderRightContent: React.FC<Props> = ({style, ...props}) => {
         }}
         style={[styles.button_container]}>
         <PhoneIcon />
-        <Text style={{}}>(01) 411 6001</Text>
+        <Text style={styles.button_text}>(01) 411 6001</Text>
       </Pressable>
     </View>
   );
